@@ -52,8 +52,8 @@ public class Mail implements Serializable{
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 		properties.put("mail.smtp.port", "587");
 		
-		String myaccountEmail = "abinesh.19@cse.mrt.ac.lk";
-		String password = "Abisharu1126";
+		String myaccountEmail = "****";
+		String password = "****";
 		
 		Session session = Session.getInstance(properties,new Authenticator() {
 			@Override
